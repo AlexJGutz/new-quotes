@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My quotes</title>
+    <title>Quotes</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,12 +9,12 @@
   </head>
 
   <body>
-   <body class="w3-container">
+   <body>
     <ul>
-      <a href="/static_pages/home"Home></a>
-      <a href="/static_pages/quotes"Quotes></a>
-      <a href="/static_pages/help"Help></a>
-      <a href="/static_pages/about"About></a>
+      <a href="/static_pages/home">Home></a>
+      <a href="/static_pages/quotes">Quotes></a>
+      <a href="/static_pages/help">Help></a>
+      <a href="/static_pages/about">About></a>
     </ul>
     <%= yield %>
   </body>

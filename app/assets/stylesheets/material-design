@@ -1,0 +1,59 @@
+<!DOCTYPE>
+<html>
+<head> 
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"> 
+    <!-- font family and styles .etc -->
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- needed to output -->
+    
+</head>
+<body>
+<!-- larger container -->
+<!-- model layout found at https://www.creativebloq.com/web-design/build-static-site-material-design-lite-21619409-->
+<div class="mdl-layout mdl-js-layout">
+<header class="mdl-layout__header">
+<div class="mdl-layout__header-row">
+    <!-- Navigation put in header tag --> 
+<span class="mdl-layout__title">Simple portfolio website</span>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="#">Portfolio</a>
+        <a class="mdl-navigation__link" href="#">Blog</a>
+        <a class="mdl-navigation__link" href="#">About</a>
+        <a class="mdl-navigation__link" href="#">Contact</a>
+</nav>
+</div>
+</header>
+<!-- layout/content drawer class--> 
+    <div class="mdl-layout__drawer">
+<span class="mdl-layout__title">Simple Layout</span>
+<nav class="mdl-navigation">
+<a class="mdl-navigation__link" href="#">Portfolio</a>
+<a class="mdl-navigation__link" href="#">Blog</a>
+<a class="mdl-navigation__link" href="#">About</a>
+<a class="mdl-navigation__link" href="#">Contact</a>
+</nav>
+</div>
+    
+    <main class="mdl-layout__content">
+        
+        <p>Hello world!</p>
+        <div class="mdl-cell mdl-cell--12-col">
+            
+        <p>Hello world!</p>
+        </div>
+        <div class="mdl-cell mdl-cell--4-col">Cell 1</div>
+        <div class="mdl-cell mdl-cell--4-col">Cell 2</div>
+        <div class="mdl-cell mdl-cell--4-col">Cell 3</div>
+        
+    </main>
+</div>
+    
+    
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <!-- yield% goes in <main class="MDL-Layout_content" -->
+    
+</body>
+</html>

@@ -6,10 +6,60 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"> 
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    
+    
   </head>
 
-  <body>
    <body>
+     
+<div class="mdl-layout mdl-js-layout">
+<header class="mdl-layout__header">
+<div class="mdl-layout__header-row">
+<span class="mdl-layout__title">Simple portfolio website</span>
+<nav class="mdl-navigation">
+<a class="mdl-navigation__link" href="/static_pages/home">Home</a>
+<a class="mdl-navigation__link" href="/static_pages/quotes">Quotes</a>
+<a class="mdl-navigation__link" href="/static_pages/help">Help</a>
+<a class="mdl-navigation__link" href="/static_pages/about">About</a>
+</nav>
+</div>
+</header>
+    
+<div class="mdl-layout__drawer">
+<span class="mdl-layout__title">Simple Layout</span>
+<nav class="mdl-navigation">
+<a class="mdl-navigation__link" href="/static_pages/home">Home</a>
+<a class="mdl-navigation__link" href="/static_pages/quotes">Quotes</a>
+<a class="mdl-navigation__link" href="/static_pages/help">Help</a>
+<a class="mdl-navigation__link" href="/static_pages/about">About</a>
+    
+</nav>
+</div>
+    
+<main class="mdl-layout__content">
+<div class="mdl-grid">
+<p>Hello world!</p>
+
+<div class="mdl-cell mdl-cell--12-col">
+<p>Hello world!</p>
+</div>
+<!-- div class="mdl-cell mdl-cell--4-col">Cell 1</div -->
+<!-- div class="mdl-cell mdl-cell--4-col">Cell 2</div -->
+<!-- div class="mdl-cell mdl-cell--4-col">Cell 3</div -->
+    
+</main>
+    
+</div>
+     
+     
+     
+     
     <ul>
       <a href="/static_pages/home">Home></a>
       <a href="/static_pages/quotes">Quotes></a>
@@ -17,5 +67,10 @@
       <a href="/static_pages/about">About></a>
     </ul>
     <%= yield %>
+     
+<script 
+  src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js">
+</script>
+     
   </body>
 </html>
